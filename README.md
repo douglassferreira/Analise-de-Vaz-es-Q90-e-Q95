@@ -15,3 +15,8 @@ As vazões de referências Q90 e Q95 são valores referentes aos percentis 90 e 
 O rio em estudo foi o Dois Rio, que é formado por dois importantes rios nas regiões norte e noroeste fluminense: os Rios Negro e Grande.
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Bacia%20Dois%20Rios.png)
+
+Para este projeto o objetivo foi responder as seguintes perguntas:
+-  Quais são os meses que apresentam os maiores e menores valores para as vazões Q90 e Q95?
+-  Quais anos e décadas apresentaram os maiores e menores valores para as vazões de referência?
+-  Existe alguma mudança nos padrões das vazões analisadas ao longo das décadas?
