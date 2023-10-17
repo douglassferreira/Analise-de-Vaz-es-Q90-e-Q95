@@ -11,3 +11,7 @@ Vale ressaltar, que os resultados aqui apresentados fazem parte de um artigo pub
 A aquisição dos dados de vazão da estação 58874000 em São Fideélis - RJ foi realizada pelo site da **ANA**, onde os dados foram baixados na extensão **txt**. Após o processamento e limpeza dos dados foi exportado um dataframe, também no formato txt, para sua posterior análise. Realizada esta etapa, foi feita então a análise dos dados de vazão por meio das vazões de referência Q90 e Q95.
 
 As vazões de referências Q90 e Q95 são valores referentes aos percentis 90 e 95, respectivamente. Logo, esses fornecem informações a respeito das vazões presentes em um rio em 90% do tempo (Q90) e 95% do tempo (Q95). Tais informações são imprescindíveis para tomadas de decisões referentes ao uso da água de um rio ou outro recurso hídrico.   
+
+O rio em estudo foi o Dois Rio, que é formado por dois importantes rios nas regiões norte e noroeste fluminense: os Rios Negro e Grande.
+
+![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Bacia%20Dois%20Rios.png)
