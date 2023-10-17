@@ -1,7 +1,7 @@
 
 # Carregando pacote
 library(tidyverse)
-
+library(ggplot2)
 # Importação de dados
 dados <- read.table("VZ_4022_58874000.txt", header = TRUE)
 
@@ -105,7 +105,6 @@ ggplot(DVazão.mes, aes(Décadas, Mes)) +
 
 #----------------------------------------------------------------------------------
 # Q90 GRAFICO 
-library(ggplot2)
 library(viridis)
 
 Vq90 <- summarise(.data = group_by(DVazão.mes, Décadas),
@@ -193,7 +192,6 @@ g2
 
 # Gráfico curva de permanência
 
-library(tidyverse)
 
 # Remover linhas com valores ausentes na coluna "Vazao"
 dados_Vz <- drop_na(dados, Vazao)
