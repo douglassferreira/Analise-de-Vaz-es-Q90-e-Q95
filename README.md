@@ -17,13 +17,12 @@ O rio em estudo foi o Dois Rio, que é formado por dois importantes rios nas reg
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Bacia%20Dois%20Rios.png)
 
 **Para este projeto o objetivo foi responder as seguintes perguntas:**
-1. Os dados de vazão do Rio Dois Rios são homogêneos? Como é a distribuição desses dados?
-1. Quais são os meses que apresentam os maiores e menores valores para as vazões Q90 e Q95?
-1. Quais anos e décadas apresentaram os maiores e menores valores para as vazões de referência?
+1. Nas décadas analisadas quais são os meses que apresentam os maiores e menores valores para as vazões Q90 e Q95?
+1. As vazões análisadas sofreram influência de valores extremos?
 1. Existe alguma mudança nos padrões das vazões analisadas ao longo das décadas?
 
 Para responder as perguntas acima foram adotados os seguintes métodos:
-1. Quais são os meses que apresentam os maiores e menores valores para as vazões Q90 e Q95?
-- Organização dos dados diários por meses e anos para obtenção das médias mensais em cada ano da série histórica. Em seguida foi plotado um mapa de calor (heatmap)
+**1. Quais são os meses que apresentam os maiores e menores valores para as vazões Q90 e Q95?**
+- Para observação da sazonalidade nas décadas da série histórica, foi plotado um mapa de calor(heatmap) com as médias das vazões Q90 e Q95.
 1. Quais anos e décadas apresentaram os maiores e menores valores para as vazões de referência?
 1. Existe alguma mudança nos padrões das vazões analisadas ao longo das décadas?
