@@ -22,6 +22,7 @@ O rio em estudo foi o Dois Rio, que é formado por dois importantes rios nas reg
 1. Existe alguma mudança nos padrões das vazões analisadas ao longo das décadas?
 
 Para responder as perguntas acima foram adotados os seguintes métodos:
+
 **1. Quais são os meses que apresentam os maiores e menores valores para as vazões Q90 e Q95?**
 - Para observação da sazonalidade nas décadas da série histórica, foi plotado um mapa de calor(heatmap) com as médias das vazões Q90 e Q95.
 1. Quais anos e décadas apresentaram os maiores e menores valores para as vazões de referência?
