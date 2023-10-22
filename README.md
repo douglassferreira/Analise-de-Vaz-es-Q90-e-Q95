@@ -38,6 +38,10 @@ Seguindo a metodologia descrita, foram plotados mapas de calor referentes as mé
 
 A figura acima refere-se as médias mensais das vazões Q90 distribuídas por décadas. Observa-se que os meses de dezembro, janeiro e fevereiro apresentaram os maiores valores para Q90. Dentre esses meses, destaca-se janeiro com uma média superior a 200 m<sup>3</sup>/s na década de 2000(2000-09).  
 
-Já os meses Julho e Agosto apresentaram as menores médias para a vazão de referência Q90. A figura abaixo apresenta o mapa de calor de referente a vazão Q95. 
+Já os meses Julho e Agosto apresentaram as menores médias para a vazão de referência Q90. A figura abaixo apresenta o mapa de calor referente a vazão Q95. 
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Heatmap_Q95.png)
+
+Como pode ser observado, os meses com as maiores médias também foram dezembro, janeiro e fevereiro e os meses com menores médias novamente foram julho e agosto. 
+
+A variação das vazões ao longo dos meses está intrinsecamente ligada às taxas de precipitação. Durante os meses de verão, especialmente dezembro, janeiro e fevereiro, observa-se uma maior quantidade de chuvas. Em contrapartida, nos meses de inverno, como junho, julho e agosto, a incidência de chuvas diminui. Essa dinâmica de precipitação influencia diretamente a vazão do rio.
