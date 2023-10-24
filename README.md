@@ -67,4 +67,5 @@ Assim, os dados indicam uma leve diminuição nas vazões de referência nas dé
 
 ## 4. Conclusão
 
+Nas análises das vazões Q90 e Q95 foi verificado que os meses com as maiores médias foram dezembro, janeiro e fevereiro. Já os meses que apresentaram as menores médias foram julho e agosto. Essa diferença entre as vazões ao longo dos meses se deve às taxas de precipitação na região, que cosntumam ser maior no verão do que no inverno.
 
