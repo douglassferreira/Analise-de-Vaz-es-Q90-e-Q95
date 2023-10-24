@@ -49,3 +49,8 @@ Como pode ser observado, os meses com as maiores médias também foram dezembro,
 Isso acontece devido ao fato da variação das vazões ao longo dos meses está intrinsecamente ligada às taxas de precipitação. Durante os meses de verão, especialmente dezembro, janeiro e fevereiro, observa-se uma maior quantidade de chuvas. Em contrapartida, nos meses de inverno, como junho, julho e agosto, a incidência de chuvas diminui. Essa dinâmica de precipitação influencia diretamente a vazão do rio.
 
 **2. Valores Extremos**
+
+Para verificar se a série temporal é influenciada por valores extremos foram plotados gráficos de barras relacionando médias e medianas. As figuras abaixo mostram os resultados obtidos para Q90 e Q95 respectivamente. 
+![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Mensal_Q90.png)
+
+![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Mensa_Q95.png)
