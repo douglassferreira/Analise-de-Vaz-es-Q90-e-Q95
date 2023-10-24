@@ -57,3 +57,6 @@ Para verificar se a série temporal é influenciada por valores extremos, foram 
 
 Nos dois gráficos verifica-se uma forte discrepância entre as médias e medianas de Q90 e Q95 ao longo das décadas, o que sugere a existência de valores extremos na série histótica.  
 
+**3. Mudanças nos padrões das vazões**
+
+
