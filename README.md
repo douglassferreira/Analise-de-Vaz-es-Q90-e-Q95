@@ -50,8 +50,10 @@ Isso acontece devido ao fato da variação das vazões ao longo dos meses está 
 
 **2. Valores Extremos**
 
-Para verificar se a série temporal é influenciada por valores extremos foram plotados gráficos de barras relacionando médias e medianas. As figuras abaixo mostram os resultados obtidos para Q90 e Q95 respectivamente. 
+Para verificar se a série temporal é influenciada por valores extremos, foram plotados gráficos de barras relacionando médias e medianas. As figuras abaixo mostram os resultados obtidos para Q90 e Q95 respectivamente. 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Mensal_Q90.png)
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Mensa_Q95.png)
+
+Nos dois gráficos verifica-se uma forte discrepância entre as médias e medianas de Q90 e Q95 ao longo das décadas, o que sugere a existência de valores extremos na série histótica.  
 
