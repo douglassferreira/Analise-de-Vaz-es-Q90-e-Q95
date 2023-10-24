@@ -59,7 +59,6 @@ Nos dois gráficos verifica-se uma forte discrepância entre as médias e median
 
 **3. Mudanças nos padrões das vazões**
 
-Para todo o período analisado, a década de 1980 se destacou tanto na análise de Q90 como em que Q95, com médias de 85,1 m³/s (Q90) e 106,0 m³/s (Q95) e medianas de 74,1 m³/s (Q90) e 105,0 m³/s (Q95).
-Nas décadas amteriores a 1980 as medianas mostraram poucas alterações. No entanto, as médias apresentaram flutuações significativas, sugerindo que foram impactadas por vazões extremas.
+Ao analisar todo o período, a década de 1980 se sobressai tanto nas análises de Q90 quanto de Q95. As médias registradas foram de 85,1 m³/s para Q90 e 106,0 m³/s para Q95, enquanto as medianas foram de 74,1 m³/s (Q90) e 105,0 m³/s (Q95). Em contraste, nas décadas anteriores a 1980, as medianas se mantiveram relativamente estáveis. No entanto, as médias mostraram oscilações consideráveis, indicando influências de vazões extremas.
 
-Para o período posterior a 1980, notá-se uma pequena redução nas vazões analisadas, com medianas entre 46,7 m³/s e 54,3 m³/s (Q90) e entre 54,6 m³/s e 62,1 m³/s (Q95). Já as médias variaram entre 59,0 m³/s e 72,4 m³/s (Q90) e entre 75,2 m³/s e 89,3 m³/s (Q95).
+No período subsequente a 1980, percebe-se um ligeiro declínio nas vazões observadas. As medianas se situaram entre 46,7 m³/s e 54,3 m³/s para Q90 e entre 54,6 m³/s e 62,1 m³/s para Q95. Por outro lado, as médias oscilaram entre 59,0 m³/s e 72,4 m³/s (Q90) e 75,2 m³/s e 89,3 m³/s (Q95)
