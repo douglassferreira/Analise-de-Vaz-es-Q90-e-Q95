@@ -58,4 +58,5 @@ Para verificar se a série temporal é influenciada por valores extremos, foram 
 Nos dois gráficos verifica-se uma forte discrepância entre as médias e medianas de Q90 e Q95 ao longo das décadas, o que sugere a existência de valores extremos na série histórica.  
 
 **3. Mudanças nos padrões das vazões**
+
 Antes da década de 1980, as medianas mostraram poucas alterações. No entanto, as médias apresentaram flutuações significativas, sugerindo que foram impactadas por vazões extremas
