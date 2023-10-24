@@ -46,7 +46,6 @@ Já os meses Julho e Agosto apresentaram as menores médias para a vazão de ref
 
 Como pode ser observado, os meses com as maiores médias também foram dezembro, janeiro e fevereiro e os meses com menores médias novamente foram julho e agosto. 
 
-Isso acontece devido ao fato da variação das vazões ao longo dos meses está intrinsecamente ligada às taxas de precipitação. Durante os meses de verão, especialmente dezembro, janeiro e fevereiro, observa-se uma maior quantidade de chuvas. Em contrapartida, nos meses de inverno, como junho, julho e agosto, a incidência de chuvas diminui. Essa dinâmica de precipitação influencia diretamente a vazão do rio.
 
 **2. Valores Extremos**
 
@@ -67,5 +66,7 @@ Assim, os dados indicam uma leve diminuição nas vazões de referência nas dé
 
 ## 4. Conclusão
 
-Nas análises das vazões Q90 e Q95 foi verificado que os meses com as maiores médias foram dezembro, janeiro e fevereiro. Já os meses que apresentaram as menores médias foram julho e agosto. Essa diferença entre as vazões ao longo dos meses se deve às taxas de precipitação na região, que cosntumam ser maior no verão do que no inverno.
+Nas análises das vazões Q90 e Q95, observou-se que dezembro, janeiro e fevereiro apresentaram as maiores médias. Por outro lado, julho e agosto registraram as menores médias. Esta variação nas vazões ao longo dos meses é influenciada pelas taxas de precipitação da região, que tendem a ser mais elevadas no verão em comparação ao inverno.
+
+Verificou-se também a presença de valores extremos na série temporal, evidenciada pela discrepância entre médias e medianas. Adicionalmente, constatou-se uma leve redução nas vazões de referência nas décadas subsequentes a 1980. Portanto, essa diminuição de vazão, aliada às variações sazonais, pode afetar atividades que dependem dos recursos hídricos.
 
