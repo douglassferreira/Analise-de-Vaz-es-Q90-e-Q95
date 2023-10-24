@@ -59,4 +59,6 @@ Nos dois gráficos verifica-se uma forte discrepância entre as médias e median
 
 **3. Mudanças nos padrões das vazões**
 
-Antes da década de 1980, as medianas mostraram poucas alterações. No entanto, as médias apresentaram flutuações significativas, sugerindo que foram impactadas por vazões extremas
+Para todo o período analisado, a década de 1980 se destacou tanto na análise de Q90 como em que Q95, com médias de 85,1 m³/s (Q90) e 106,0 m³/s (Q95) e medianas de 74,1 m³/s (Q90) e 105,0 m³/s (Q95).
+Nas décadas amteriores a 1980 as medianas mostraram poucas alterações. No entanto, as médias apresentaram flutuações significativas, sugerindo que foram impactadas por vazões extremas.
+
