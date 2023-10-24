@@ -46,4 +46,6 @@ Já os meses Julho e Agosto apresentaram as menores médias para a vazão de ref
 
 Como pode ser observado, os meses com as maiores médias também foram dezembro, janeiro e fevereiro e os meses com menores médias novamente foram julho e agosto. 
 
-A variação das vazões ao longo dos meses está intrinsecamente ligada às taxas de precipitação. Durante os meses de verão, especialmente dezembro, janeiro e fevereiro, observa-se uma maior quantidade de chuvas. Em contrapartida, nos meses de inverno, como junho, julho e agosto, a incidência de chuvas diminui. Essa dinâmica de precipitação influencia diretamente a vazão do rio.
+Isso acontece devido ao fato da variação das vazões ao longo dos meses está intrinsecamente ligada às taxas de precipitação. Durante os meses de verão, especialmente dezembro, janeiro e fevereiro, observa-se uma maior quantidade de chuvas. Em contrapartida, nos meses de inverno, como junho, julho e agosto, a incidência de chuvas diminui. Essa dinâmica de precipitação influencia diretamente a vazão do rio.
+
+**2. Valores Extremos**
