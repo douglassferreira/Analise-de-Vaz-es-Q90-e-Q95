@@ -12,11 +12,11 @@ A aquisição dos dados de vazão da estação 58874000 em São Fideélis - RJ f
 
 As vazões de referências Q90 e Q95 são valores referentes aos percentis 90 e 95, respectivamente. Logo, esses fornecem informações a respeito das vazões presentes em um rio em 90% do tempo (Q90) e 95% do tempo (Q95). Tais informações são imprescindíveis para tomadas de decisões referentes ao uso da água de um rio ou outro recurso hídrico.   
 
-O objeto de nossa análise é o Rio Dois Rios, situado no município de São Fidélis, RJ. Ele é originado pela confluência de dois rios significativos para as regiões norte e noroeste fluminense: o Rio Negro e o Rio Grande. A imagem a seguir ilustra o Rio Dois Rios, seus afluentes, a localização do município de São Fidélis e a estação fluviométrica selecionada
+O objeto da análise é o Rio Dois Rios, situado no município de São Fidélis, RJ. Ele é originado pela confluência de dois rios significativos para as regiões norte e noroeste fluminense: o Rio Negro e o Rio Grande. A imagem a seguir ilustra o Rio Dois Rios, seus afluentes, a localização do município de São Fidélis e a estação fluviométrica selecionada
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Bacia%20Dois%20Rios.png)
 
-**Para este projeto o objetivo foi responder as seguintes perguntas:**
+**Este projeto teve como principal objetivo responder as seguintes perguntas:**
 1. Nas décadas analisadas quais foram os meses que apresentaram os maiores e menores valores para as vazões Q90 e Q95?
 1. As vazões análisadas sofreram influência de valores extremos?
 1. Existe alguma mudança nos padrões das vazões analisadas ao longo das décadas?
@@ -24,13 +24,13 @@ O objeto de nossa análise é o Rio Dois Rios, situado no município de São Fid
 Para responder as perguntas acima foram adotados os seguintes métodos:
 
 **1. Nas décadas analisadas quais foram os meses que apresentaram os maiores e menores valores para as vazões Q90 e Q95?**
-- Para observação da sazonalidade nas décadas da série histórica, foi plotado um mapa de calor(heatmap) com as médias das vazões Q90 e Q95.
+- Para observação da sazonalidade nas décadas da série histórica, foram plotados mapas de calor(heatmap) com as médias das vazões Q90 e Q95.
   
 **2. As vazões análisadas sofreram influência de valores extremos?**
-  - Para esta análise foram plotados dois gráficos de barras (para Q90 e Q95) com suas respectivas médias e medianas em cada década.
+  - Para a análise em questão, foram elaborados dois gráficos de barras, correspondentes a Q90 e Q95, nos quais as medianas de cada década foram destacadas. As médias foram representadas nesses mesmos gráficos através de linhas.
 
 **3. Existe alguma mudança nos padrões das vazões analisadas ao longo das décadas?**
-  - Utilizou-se os mesmos gráficos de barras para responder esta pergunta. 
+  - Utilizou-se os mesmos gráficos de barras e linhas para responder esta pergunta. 
 
 ## 3. Análise das vazões Q90 e Q95
 **1. Sazonalidade - Q90 e Q95** 
