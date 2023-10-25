@@ -41,7 +41,7 @@ Seguindo a metodologia descrita, foram plotados mapas de calor referentes as mé
 
 A figura acima refere-se as médias mensais das vazões Q90 distribuídas por décadas. Observa-se que os meses de dezembro, janeiro e fevereiro apresentaram os maiores valores para Q90. Dentre esses meses, destaca-se janeiro com uma média superior a 200 m<sup>3</sup>/s na década de 2000(2000-09).  
 
-Já os meses Julho e Agosto apresentaram as menores médias para a vazão de referência Q90. A figura abaixo apresenta o mapa de calor referente a vazão Q95. 
+Já os meses julho e agosto apresentaram as menores médias para a vazão de referência Q90. A figura abaixo apresenta o mapa de calor referente a vazão Q95. 
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Heatmap_Q95.png)
 
@@ -50,7 +50,8 @@ Como pode ser observado, os meses com as maiores médias também foram dezembro,
 
 **2. Valores Extremos**
 
-Para verificar se a série temporal é influenciada por valores extremos, foram plotados gráficos de barras relacionando médias e medianas. As figuras abaixo mostram os resultados obtidos para Q90 e Q95 respectivamente. 
+Para verificar se a série temporal é influenciada por valores extremos, foram plotados gráficos de barras representando as medianas e linhas representando as médias. As figuras abaixo mostram os resultados obtidos para Q90 e Q95 respectivamente. 
+
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Mensal_Q90.png)
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Mensa_Q95.png)
