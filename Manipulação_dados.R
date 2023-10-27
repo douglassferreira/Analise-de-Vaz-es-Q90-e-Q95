@@ -1,3 +1,6 @@
+# Diretório
+setwd("C:/Users/user/Documents/Projetos - Análise de Dados/Análise de vazões Q90 e Q95")
+
 # Manipulação de dados
 
 install.packages('readr')
@@ -66,3 +69,11 @@ range(dados2$Data)
 dados3 <- dados2 %>% filter(Data >= "1940-01-01" & Data < "2023-01-01")
 View(dados3)
 str(dados3)
+
+# Exportando dados
+
+dados_vazao <- write.csv(dados3, file = 'dados_vazao.csv',
+                         sep = ';',
+                         dec = ',') 
+
+#---------------------------------------------------------------
