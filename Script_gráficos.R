@@ -1,22 +1,26 @@
 
+# Diretório
+setwd("C:/Users/user/Documents/Projetos - Análise de Dados/Análise de vazões Q90 e Q95")
+
 # Carregando pacote
 library(tidyverse)
 library(ggplot2)
-# Importação de dados
-dados <- read.table("VZ_4022_58874000.txt", header = TRUE)
 
+# Importação de dados
+
+dados <- read_csv("dados_vazao.csv")
+View(dados)
 
 head(dados)
 tail(dados)
 str(dados)
 
-dados$Data <- as.Date(dados$Data, format="%Y-%m-%d")
-View(dados)
+# Informações gerais sobre a vazão
+summary(dados$Vazão, na.rm = T)
 
-summary(dados$Vazao, na.rm = T)
-
-quantile(dados$Vazao, probs = seq(0, 1, .01), na.rm = T)
-quantile(dados$Vazao, probs = c(.90, .95), na.rm = T)
+# Verificando os percentis da série histórica
+quantile(dados$Vazão, probs = seq(0, 1, .01), na.rm = T)
+quantile(dados$Vazão, probs = c(.90, .95), na.rm = T)
 # Série histórica: q90 = 81.9350 e q95 = 114.0715
 
 
@@ -25,25 +29,18 @@ library(dplyr)
 
 ### Análise por mês
 Vazão.mes <-
-  summarise(.data = group_by(dados, Mes),
-            Q90 = quantile(Vazao, probs = .9, na.rm = T),
-            Q95 = quantile(Vazao, probs = .95, na.rm = T))
+  summarise(.data = group_by(dados, Mês),
+            Q90 = quantile(Vazão, probs = .9, na.rm = T),
+            Q95 = quantile(Vazão, probs = .95, na.rm = T))
 Vazão.mes
 
-# Na escala mensal, foi verificado que os meses de janeiro, fevereiro, março e dezembro 
-# possuem os maiores valores para q90 e q95, com destaque para o mês de janeiro onde q90 e q95
-# possuem valores de 167 e 216, respectivamente. 
-
-# Já os meses em que as duas vazões referências tiveram menor valor foram Agosto e Setembro.
-# Em agosto, os valores de q90 e q95 foram, respectivamente,27.6 e 31.2. 
-# Ja em setembro os valores respectivos foram 28.4 e 34.8.  
 
 ### Análise por ano
 
 Vazão.ano <-
   summarise(.data = group_by(dados, Ano),
-            Q90 = quantile(Vazao, probs = .9, na.rm = T),
-            Q95 = quantile(Vazao, probs = .95, na.rm = T))
+            Q90 = quantile(Vazão, probs = .9, na.rm = T),
+            Q95 = quantile(Vazão, probs = .95, na.rm = T))
 Vazão.ano
 View(Vazão.ano)
 
@@ -62,14 +59,17 @@ dados$Décadas <-
 View(dados)
 
 
-DVazão.mes <- summarise(.data = group_by(dados, Mes, Décadas),
-            Q90 = quantile(Vazao, probs = .9, na.rm = T),
-            Q95 = quantile(Vazao, probs = .95, na.rm = T))
+# Agrupando dados por Mês e Década
+DVazão.mes <- summarise(.data = group_by(dados, Mês, Décadas),
+            Q90 = quantile(Vazão, probs = .9, na.rm = T),
+            Q95 = quantile(Vazão, probs = .95, na.rm = T))
 View(DVazão.mes)
 str(DVazão.mes)
-DVazão.mes$Mes <- as.factor(DVazão.mes$Mes)
+DVazão.mes$Mês <- as.factor(DVazão.mes$Mês)
 
-ggplot(DVazão.mes, aes(Décadas, Mes)) +
+
+# Mapa de Calor refernte a Q90
+ggplot(DVazão.mes, aes(Décadas, Mês)) +
   geom_tile(aes(fill = Q90)) + 
   geom_text(aes(label = round(Q90, 1)), size = 3) +
   scale_fill_gradient(low = "white", high = "darkslategray")+
@@ -83,10 +83,10 @@ ggplot(DVazão.mes, aes(Décadas, Mes)) +
          plot.margin = unit(c(1,0.8,0.2,0.2), "cm"),
          legend.position = "bottom",
          legend.justification=c(1,1),
-         # The new stuff
          strip.text = element_text(size = 12, face = "bold"))
 
-ggplot(DVazão.mes, aes(Décadas, Mes)) +
+# Mapa de Calor referente a Q95
+ggplot(DVazão.mes, aes(Décadas, Mês)) +
   geom_tile(aes(fill = Q95)) + 
   geom_text(aes(label = round(Q95, 1)), size = 3) +
   scale_fill_gradient(low = "white", high = "darkslategray")+
@@ -100,11 +100,10 @@ ggplot(DVazão.mes, aes(Décadas, Mes)) +
          plot.margin = unit(c(1,0.8,0.2,0.2), "cm"),
          legend.position = "bottom",
          legend.justification=c(1,1),
-         # The new stuff
          strip.text = element_text(size = 12, face = "bold"))
 
 #----------------------------------------------------------------------------------
-# Q90 GRAFICO 
+# Q90 GRAFICO (Barras e linhas)
 library(viridis)
 
 Vq90 <- summarise(.data = group_by(DVazão.mes, Décadas),
@@ -137,7 +136,6 @@ g1 <- ggplot(Vq90, aes(x = Décadas)) +
        y = expression("Vazão Mensal - Q90 (m"^"3"*"/s)")) +
   theme_minimal()+
   theme(
-    # plot.title = element_text(size = 18, hjust = 0.5),
     axis.title.x = element_text(size = 13),
     axis.title.y = element_text(size = 13),
     axis.text.x = element_text(size = 12),
@@ -147,7 +145,6 @@ g1 <- ggplot(Vq90, aes(x = Décadas)) +
     legend.text = element_text(size = 12),
     legend.position = "top",
     legend.justification=c(1,1)) +
-  # coord_cartesian(ylim = c(0, 1300)) +
   scale_fill_manual(NULL, values = c("darkseagreen3")) +
   scale_color_manual(NULL, values = c("red4")) +
   theme(axis.line = element_line(colour = "black"))+
@@ -171,7 +168,6 @@ g2 <- ggplot(Vq95, aes(x = Décadas)) +
        y = expression("Vazão Mensal - Q95 (m"^"3"*"/s)")) +
   theme_minimal()+
   theme(
-    # plot.title = element_text(size = 18, hjust = 0.5),
     axis.title.x = element_text(size = 13),
     axis.title.y = element_text(size = 13),
     axis.text.x = element_text(size = 12),
@@ -181,7 +177,6 @@ g2 <- ggplot(Vq95, aes(x = Décadas)) +
     legend.text = element_text(size = 12),
     legend.position = "top",
     legend.justification=c(1,1)) +
-  # coord_cartesian(ylim = c(0, 1300)) +
   scale_fill_manual(NULL, values = c("darkseagreen3")) +
   scale_color_manual(NULL, values = c("red4")) +
   theme(axis.line = element_line(colour = "black"))+
@@ -190,37 +185,7 @@ g2
 
 #-------------------------------------------------------------------------------------------
 
-# Gráfico curva de permanência
 
-
-# Remover linhas com valores ausentes na coluna "Vazao"
-dados_Vz <- drop_na(dados, Vazao)
-
-# Ordenar os dados de vazão em ordem decrescente
-dados_Vz <- arrange(dados_Vz, desc(Vazao))
-
-# Calcular a porcentagem acumulada para cada valor de vazão
-dados_Vz <- mutate(dados_Vz, Porcentagem = cumsum(Vazao) / sum(Vazao) * 100)
-
-# Plotar a curva de permanência de vazões
-ggplot(dados_Vz, aes(x = Porcentagem, y = Vazao)) +
-  geom_line(color = "steelblue", size = 1.2) +
-  xlab("Percentagem do tempo em que a vazão é superada (%)") +
-  ylab(expression("Vazões diárias (m"^"3"*"/s)")) +
-  # ggtitle("Curva de Permanência de Vazões") +
-  # labs(subtitle = "Dados de Vazão Mensal") +
-  scale_x_continuous(breaks = seq(0, 100, 10)) +
-  scale_y_continuous(breaks = seq(0, 1600, 200)) +
-  theme_minimal() +
-  theme(plot.title = element_text(size = 16, hjust = 0.5),
-        plot.subtitle = element_text(size = 12, hjust = 0.5),
-        axis.text = element_text(color = "black", size = 10),
-        axis.title = element_text(color = "black", size = 12),
-        legend.position = "none",
-        panel.grid.major = element_line(color = "#DDDDDD"),
-        panel.grid.minor = element_blank(),
-        panel.border = element_blank(),
-        panel.background = element_blank())
-#--------------------------------------------------------------------------
+ 
 
 
