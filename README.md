@@ -32,14 +32,14 @@ To answer the above questions, the following methods were adopted:
 **3. Is there any change in the patterns of the analyzed flows over the decades?**
   - The same bar and line charts were used to answer this question.
 
-## 3. Análise das vazões Q90 e Q95
-**1. Sazonalidade - Q90 e Q95** 
+## 3. Analysis of the Q90 and Q95 flows
+**1. Seasonality - Q90 and Q95** 
 
-Seguindo a metodologia descrita, foram plotados mapas de calor referentes as médias de Q90 e Q95 para observação da sazonalidade. 
+Following the described methodology, heat maps were plotted related to the averages of Q90 and Q95 to observe seasonality
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Heatmap_90.png)
 
-A figura acima refere-se as médias mensais das vazões Q90 distribuídas por décadas. Observa-se que os meses de dezembro, janeiro e fevereiro apresentaram os maiores valores para Q90. Dentre esses meses, destaca-se janeiro com uma média superior a 200 m<sup>3</sup>/s na década de 2000(2000-09).  
+The figure above pertains to the monthly averages of Q90 flows distributed by decade. It can be observed that the months of December, January, and February had the highest values for Q90. Among these months, January stands out with an average exceeding 200 m<sup>3</sup>/s  in the 2000s decade (2000-09).
 
 Já os meses julho e agosto apresentaram as menores médias para a vazão de referência Q90. A figura abaixo apresenta o mapa de calor referente a vazão Q95. 
 
