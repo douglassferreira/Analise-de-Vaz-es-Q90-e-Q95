@@ -2,8 +2,8 @@
 Analysis of the Q90 and Q95 reference flows in the Dois Rios River in São Fidélis - RJ.
 ![Alt text](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Rio-Dois-Rios-em-Sao-Fidelis-1.jpg)
 
-## 1. Introdução
-O objetivo desse projeto consiste em analisar as vazões de referência Q90 e Q95 no Rio Dois Rios em São Fidélis - RJ. Para tanto, foram utilizados dados diários de vazão da estação fluviométrica código 58874000 localizada no município de São Fidélis - RJ. A série temporal analisada compreendeu um período de 83 anos (1940-2022), sendo obtida através da Agência Nacional de Águas e Saneamento Básico (ANA).
+## 1. Introduction
+The objective of this project is to analyze the Q90 and Q95 reference flows in the Dois Rios River in São Fidélis - RJ. To do so, daily flow data from the river gauge station code 58874000 located in the municipality of São Fidélis - RJ were used. The time series analyzed spanned a period of 83 years (1940-2022), and was obtained through the National Water and Basic Sanitation Agency (ANA).
 
 Vale ressaltar, que os resultados aqui apresentados fazem parte de um artigo publicado nos anais do 20° Congresso Nacional de Meio Ambiente realizado no município de Poços de Caldas - MG no ano de 2023, cujos os autores são Douglas da Silva Ferreira e Eliane Barbosa Santos. Ao final do projeto se encontra a referência do artigo mencionado.
 
