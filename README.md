@@ -10,9 +10,9 @@ It is worth noting that the results presented here are part of an article publis
 ## 2. Methodology
 The flow data acquisition from station 58874000 in São Fidélis - RJ was carried out through the [ANA](https://www.snirh.gov.br/hidroweb-mobile/mapa) website, where the data was downloaded in **csv** format.  After processing and cleaning the data, a dataframe was exported, also in csv format, for its subsequent analysis. Having completed this step, the flow data was then analyzed using the Q90 and Q95 reference flows.
 
-As vazões de referências Q90 e Q95 são valores referentes aos percentis 90 e 95, respectivamente. Logo, esses fornecem informações a respeito das vazões presentes em um rio em 90% do tempo (Q90) e 95% do tempo (Q95). Tais informações são imprescindíveis para tomadas de decisões referentes ao uso da água de um rio ou outro recurso hídrico.   
+The reference flows Q90 and Q95 correspond to the 90th and 95th percentiles, respectively. Therefore, these provide information about the flows present in a river 90% of the time (Q90) and 95% of the time (Q95). Such information is essential for decision-making regarding the use of water from a river or another water resource. 
 
-O objeto da análise é o Rio Dois Rios, situado no município de São Fidélis, RJ. Ele é originado pela confluência de dois rios significativos para as regiões norte e noroeste fluminense: o Rio Negro e o Rio Grande. A imagem a seguir ilustra o Rio Dois Rios, seus afluentes, a localização do município de São Fidélis e a estação fluviométrica selecionada.
+The object of analysis is the Dois Rios River, located in the municipality of São Fidélis, RJ. It is formed by the confluence of two significant rivers for the northern and northwestern regions of the state of Rio de Janeiro: the Rio Negro and the Rio Grande. The following image illustrates the Dois Rios River, its tributaries, the location of the São Fidélis municipality, and the selected river gauge station.
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Bacia%20Dois%20Rios.png)
 
