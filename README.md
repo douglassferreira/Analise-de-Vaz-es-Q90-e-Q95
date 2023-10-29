@@ -58,13 +58,13 @@ To check if the time series is influenced by extreme values, bar charts were plo
 
 In both charts, there is a strong discrepancy between the averages and medians of Q90 and Q95 over the decades, which suggests the presence of extreme values in the historical series. 
 
-**3. Mudanças nos padrões das vazões**
+**3. Changes in flow patterns**
 
-Ao analisar todo o período, a década de 1980 se sobressai tanto nas análises de Q90 quanto de Q95. As médias registradas foram de 85,1 m³/s para Q90 e 106,0 m³/s para Q95, enquanto as medianas foram de 74,1 m³/s (Q90) e 105,0 m³/s (Q95). Em contraste, nas décadas anteriores a 1980, as medianas se mantiveram relativamente estáveis. No entanto, as médias mostraram oscilações consideráveis, indicando influências de vazões extremas.
+When analyzing the entire period, the 1980s stand out in both the Q90 and Q95 analyses. The recorded averages were 85.1 m³/s for Q90 and 106.0 m³/s for Q95, while the medians were 74.1 m³/s (Q90) and 105.0 m³/s (Q95). In contrast, in the decades before the 1980s, the medians remained relatively stable. However, the averages showed significant fluctuations, indicating influences from extreme flows.
 
-No período subsequente a 1980, percebe-se um ligeiro declínio nas vazões observadas. As medianas se situaram entre 46,7 m³/s e 54,3 m³/s para Q90 e entre 54,6 m³/s e 62,1 m³/s para Q95. Por outro lado, as médias oscilaram entre 59,0 m³/s e 72,4 m³/s (Q90) e 75,2 m³/s e 89,3 m³/s (Q95).
+In the period following 1980, a slight decline in observed flows is noticeable. The medians ranged between 46.7 m³/s and 54.3 m³/s for Q90 and between 54.6 m³/s and 62.1 m³/s for Q95. On the other hand, the averages fluctuated between 59.0 m³/s and 72.4 m³/s (Q90) and 75.2 m³/s and 89.3 m³/s (Q95).
 
-Assim, os dados indicam uma leve diminuição nas vazões de referência nas décadas subsequentes a 1980.
+Thus, the data indicates a slight decrease in reference flows in the decades following the 1980s.
 
 ## 4. Conclusão
 
