@@ -66,12 +66,12 @@ In the period following 1980, a slight decline in observed flows is noticeable. 
 
 Thus, the data indicates a slight decrease in reference flows in the decades following the 1980s.
 
-## 4. Conclusão
+## 4. Conclusion
 
-Nas análises das vazões Q90 e Q95, observou-se que dezembro, janeiro e fevereiro apresentaram as maiores médias. Por outro lado, julho e agosto registraram as menores médias. Esta variação nas vazões ao longo dos meses é influenciada pelas taxas de precipitação da região, que tendem a ser mais elevadas no verão em comparação ao inverno.
+In the analyses of the Q90 and Q95 flows, it was observed that December, January, and February had the highest averages. On the other hand, July and August recorded the lowest averages. This variation in flows throughout the months is influenced by the precipitation rates of the region, which tend to be higher in the summer compared to the winter.
 
-Verificou-se também a presença de valores extremos na série temporal, evidenciada pela discrepância entre médias e medianas. Adicionalmente, constatou-se uma leve redução nas vazões de referência nas décadas subsequentes a 1980. Portanto, essa diminuição de vazão, aliada às variações sazonais, pode afetar atividades que dependem dos recursos hídricos.
+It was also noted the presence of extreme values in the time series, evidenced by the discrepancy between averages and medians. Additionally, there was a slight reduction in reference flows in the decades following the 1980s. Therefore, this decrease in flow, combined with seasonal variations, may affect activities that rely on water resources.
 
-## Referência
+## Reference
 
 https://www.meioambientepocos.com.br/Anais2023/15-AN%C3%81LISE%20DAS%20VAZ%C3%95ES%20DE%20REFER%C3%8ANCIA%20Q90%20E%20Q95%20NO%20RIO%20DOIS%20RIOS%20S%C3%83O%20FID%C3%89LIS%20RJ.pdf
