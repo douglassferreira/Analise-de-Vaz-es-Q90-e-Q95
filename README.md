@@ -8,7 +8,7 @@ O objetivo desse projeto consiste em analisar as vazões de referência Q90 e Q9
 Vale ressaltar, que os resultados aqui apresentados fazem parte de um artigo publicado nos anais do 20° Congresso Nacional de Meio Ambiente realizado no município de Poços de Caldas - MG no ano de 2023, cujos os autores são Douglas da Silva Ferreira e Eliane Barbosa Santos. Ao final do projeto se encontra a referência do artigo mencionado.
 
 ## 2. Metodologia
-A aquisição dos dados de vazão da estação 58874000 em São Fideélis - RJ foi realizada pelo site da [ANA](https://www.snirh.gov.br/hidroweb-mobile/mapa), onde os dados foram baixados na extensão **csv**. Após o processamento e limpeza dos dados foi exportado um dataframe, também no formato csv, para sua posterior análise. Realizada esta etapa, foi feita então a análise dos dados de vazão por meio das vazões de referência Q90 e Q95.
+A aquisição dos dados de vazão da estação 58874000 em São Fidélis - RJ foi realizada pelo site da [ANA](https://www.snirh.gov.br/hidroweb-mobile/mapa), onde os dados foram baixados na extensão **csv**. Após o processamento e limpeza dos dados foi exportado um dataframe, também no formato csv, para sua posterior análise. Realizada esta etapa, foi feita então a análise dos dados de vazão por meio das vazões de referência Q90 e Q95.
 
 As vazões de referências Q90 e Q95 são valores referentes aos percentis 90 e 95, respectivamente. Logo, esses fornecem informações a respeito das vazões presentes em um rio em 90% do tempo (Q90) e 95% do tempo (Q95). Tais informações são imprescindíveis para tomadas de decisões referentes ao uso da água de um rio ou outro recurso hídrico.   
 
