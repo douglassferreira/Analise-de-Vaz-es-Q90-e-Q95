@@ -1,5 +1,5 @@
-# Análise das Vazões de Referência Q90 e Q95
-Análise das vazões de referências Q90 e Q95 no Rio Dois Rio em São Fidélis - RJ.
+# Analysis of Reference Flows Q90 and Q95
+Analysis of the Q90 and Q95 reference flows in the Dois Rios River in São Fidélis - RJ.
 ![Alt text](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Rio-Dois-Rios-em-Sao-Fidelis-1.jpg)
 
 ## 1. Introdução
