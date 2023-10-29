@@ -16,21 +16,21 @@ The object of analysis is the Dois Rios River, located in the municipality of S�
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Bacia%20Dois%20Rios.png)
 
-**Este projeto teve como principal objetivo responder as seguintes perguntas:**
-1. Nas décadas analisadas quais foram os meses que apresentaram os maiores e menores valores para as vazões Q90 e Q95?
-1. As vazões análisadas sofreram influência de valores extremos?
-1. Existe alguma mudança nos padrões das vazões analisadas ao longo das décadas?
+**This project's main objective was to answer the following questions:**
+1.In the decades analyzed, which months showed the highest and lowest values for the Q90 and Q95 flows?
+1. Were the analyzed flows influenced by extreme values?
+1. Is there any change in the patterns of the analyzed flows over the decades?
 
-Para responder as perguntas acima foram adotados os seguintes métodos:
+To answer the above questions, the following methods were adopted:
 
-**1. Nas décadas analisadas quais foram os meses que apresentaram os maiores e menores valores para as vazões Q90 e Q95?**
-- Para observação da sazonalidade nas décadas da série histórica, foram plotados mapas de calor(heatmap) com as médias das vazões Q90 e Q95.
+**1. In the decades analyzed, which months showed the highest and lowest values for the Q90 and Q95 flows?**
+- To observe seasonality over the decades of the historical series, heat maps were plotted with the averages of the Q90 and Q95 flows.
   
-**2. As vazões análisadas sofreram influência de valores extremos?**
-  - Para a análise em questão, foram elaborados dois gráficos de barras, correspondentes a Q90 e Q95, nos quais as medianas de cada década foram destacadas. As médias foram representadas nesses mesmos gráficos através de linhas.
+**2. Were the analyzed flows influenced by extreme values?**
+  - "For the analysis in question, two bar charts were created, corresponding to Q90 and Q95, in which the medians of each decade were highlighted. The averages were represented on these same charts using lines.
 
-**3. Existe alguma mudança nos padrões das vazões analisadas ao longo das décadas?**
-  - Utilizou-se os mesmos gráficos de barras e linhas para responder esta pergunta. 
+**3. Is there any change in the patterns of the analyzed flows over the decades?**
+  - The same bar and line charts were used to answer this question.
 
 ## 3. Análise das vazões Q90 e Q95
 **1. Sazonalidade - Q90 e Q95** 
