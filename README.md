@@ -5,7 +5,7 @@ Analysis of the Q90 and Q95 reference flows in the Dois Rios River in São Fidé
 ## 1. Introduction
 The objective of this project is to analyze the Q90 and Q95 reference flows in the Dois Rios River in São Fidélis - RJ. To do so, daily flow data from the river gauge station code 58874000 located in the municipality of São Fidélis - RJ were used. The time series analyzed spanned a period of 83 years (1940-2022), and was obtained through the National Water and Basic Sanitation Agency (ANA).
 
-Vale ressaltar, que os resultados aqui apresentados fazem parte de um artigo publicado nos anais do 20° Congresso Nacional de Meio Ambiente realizado no município de Poços de Caldas - MG no ano de 2023, cujos os autores são Douglas da Silva Ferreira e Eliane Barbosa Santos. Ao final do projeto se encontra a referência do artigo mencionado.
+It is worth noting that the results presented here are part of an article published in the proceedings of the 20th National Environmental Congress held in the municipality of Poços de Caldas - MG in 2023, whose authors are Douglas da Silva Ferreira and Eliane Barbosa Santos. At the end of the project, the reference to the mentioned article can be found.
 
 ## 2. Metodologia
 A aquisição dos dados de vazão da estação 58874000 em São Fideélis - RJ foi realizada pelo site da [ANA](https://www.snirh.gov.br/hidroweb-mobile/mapa), onde os dados foram baixados na extensão **csv**. Após o processamento e limpeza dos dados foi exportado um dataframe, também no formato csv, para sua posterior análise. Realizada esta etapa, foi feita então a análise dos dados de vazão por meio das vazões de referência Q90 e Q95.
