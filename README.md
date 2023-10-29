@@ -8,7 +8,7 @@ The objective of this project is to analyze the Q90 and Q95 reference flows in t
 It is worth noting that the results presented here are part of an article published in the proceedings of the 20th National Environmental Congress held in the municipality of Poços de Caldas - MG in 2023, whose authors are Douglas da Silva Ferreira and Eliane Barbosa Santos. At the end of the project, the reference to the mentioned article can be found.
 
 ## 2. Methodology
-The flow data acquisition from station 58874000 in São Fidélis - RJ was carried out through the [ANA](https://www.snirh.gov.br/hidroweb-mobile/mapa) website, onde os dados foram baixados na extensão **csv**. Após o processamento e limpeza dos dados foi exportado um dataframe, também no formato csv, para sua posterior análise. Realizada esta etapa, foi feita então a análise dos dados de vazão por meio das vazões de referência Q90 e Q95.
+The flow data acquisition from station 58874000 in São Fidélis - RJ was carried out through the [ANA](https://www.snirh.gov.br/hidroweb-mobile/mapa) website, where the data was downloaded in **csv** format.  After processing and cleaning the data, a dataframe was exported, also in csv format, for its subsequent analysis. Having completed this step, the flow data was then analyzed using the Q90 and Q95 reference flows.
 
 As vazões de referências Q90 e Q95 são valores referentes aos percentis 90 e 95, respectivamente. Logo, esses fornecem informações a respeito das vazões presentes em um rio em 90% do tempo (Q90) e 95% do tempo (Q95). Tais informações são imprescindíveis para tomadas de decisões referentes ao uso da água de um rio ou outro recurso hídrico.   
 
