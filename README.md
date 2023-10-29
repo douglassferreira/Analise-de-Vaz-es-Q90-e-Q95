@@ -35,28 +35,28 @@ To answer the above questions, the following methods were adopted:
 ## 3. Analysis of the Q90 and Q95 flows
 **1. Seasonality - Q90 and Q95** 
 
-Following the described methodology, heat maps were plotted related to the averages of Q90 and Q95 to observe seasonality
+Following the described methodology, heat maps were plotted related to the averages of Q90 and Q95 to observe seasonality.
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Heatmap_90.png)
 
 The figure above pertains to the monthly averages of Q90 flows distributed by decade. It can be observed that the months of December, January, and February had the highest values for Q90. Among these months, January stands out with an average exceeding 200 m<sup>3</sup>/s  in the 2000s decade (2000-09).
 
-Já os meses julho e agosto apresentaram as menores médias para a vazão de referência Q90. A figura abaixo apresenta o mapa de calor referente a vazão Q95. 
+Meanwhile, the months of July and August displayed the lowest averages for the Q90 reference flow. The figure below shows the heat map related to the Q95 flow.
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Heatmap_Q95.png)
 
-Como pode ser observado, os meses com as maiores médias também foram dezembro, janeiro e fevereiro e os meses com menores médias novamente foram julho e agosto. 
+As can be seen, the months with the highest averages were also December, January, and February, while the months with the lowest averages were once again July and August.
 
 
-**2. Valores Extremos**
+**2. Extreme Values**
 
-Para verificar se a série temporal é influenciada por valores extremos, foram plotados gráficos de barras representando as medianas e linhas representando as médias. As figuras abaixo mostram os resultados obtidos para Q90 e Q95 respectivamente. 
+To check if the time series is influenced by extreme values, bar charts were plotted representing the medians and lines representing the averages. The figures below show the results obtained for Q90 and Q95, respectively.
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Mensal_Q90.png)
 
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Mensa_Q95.png)
 
-Nos dois gráficos verifica-se uma forte discrepância entre as médias e medianas de Q90 e Q95 ao longo das décadas, o que sugere a existência de valores extremos na série histórica.  
+In both charts, there is a strong discrepancy between the averages and medians of Q90 and Q95 over the decades, which suggests the presence of extreme values in the historical series. 
 
 **3. Mudanças nos padrões das vazões**
 
