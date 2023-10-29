@@ -17,7 +17,7 @@ The object of analysis is the Dois Rios River, located in the municipality of SÃ
 ![](https://github.com/douglassferreira/Analise-de-Vaz-es-Q90-e-Q95/blob/main/img/Bacia%20Dois%20Rios.png)
 
 **This project's main objective was to answer the following questions:**
-1.In the decades analyzed, which months showed the highest and lowest values for the Q90 and Q95 flows?
+1. In the decades analyzed, which months showed the highest and lowest values for the Q90 and Q95 flows?
 1. Were the analyzed flows influenced by extreme values?
 1. Is there any change in the patterns of the analyzed flows over the decades?
 
